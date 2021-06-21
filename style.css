@@ -1,0 +1,62 @@
+/* style.css */
+body{
+  background: rgb(190,227,219);
+  color: green;
+  font-size: 25px;
+  font-family: Open Sans;
+}
+h1{
+  font-family: Open Sans;
+  color: red;
+  font-weight: lighter;
+  font-size: 10px;
+}
+h2 {
+  font-family: Open Sans;
+  color: rgb(85, 91, 110);
+  font-weight: lighter;
+  font-size: 26px;
+}
+a {
+  color: rgb(85, 91, 110);
+}
+a:hover {
+  text-decoration: none;
+  color: rgb(137,176,174);
+}
+
+#banner{
+  text-align: center;
+  background-image: url("<!--mettre le lien de l'image de fond-->");
+  background-size: cover;
+  padding: 150px;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+#banner h1 {
+  color: white;
+  font-size: 50px;
+}
+#banner p {
+  color: white;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+#footer{
+  padding: 30px;
+  
+  color: rgb(190,227,219);
+}
+.card{
+  padding: 50px;
+  font-weight: lighter;
+}
+
+#footer a {
+  color: rgb(190,227,219)
+  font-size: 15px;
+}
+#footer a:hover {
+  color: rgb(137,176,174)
+}
